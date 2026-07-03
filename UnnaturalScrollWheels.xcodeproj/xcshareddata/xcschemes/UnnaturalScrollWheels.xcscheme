@@ -15,7 +15,7 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "91D8069924CB37B80092C286"
-                     BuildableName = "UnnaturalScrollWheels.app"
+                     BuildableName = "UnnaturalScrollWheels-Mod.app"
                      BlueprintName = "UnnaturalScrollWheels"
                      ReferencedContainer = "container:UnnaturalScrollWheels.xcodeproj">
                   </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91D8069924CB37B80092C286"
-               BuildableName = "UnnaturalScrollWheels.app"
+               BuildableName = "UnnaturalScrollWheels-Mod.app"
                BlueprintName = "UnnaturalScrollWheels"
                ReferencedContainer = "container:UnnaturalScrollWheels.xcodeproj">
             </BuildableReference>
@@ -63,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91D8069924CB37B80092C286"
-            BuildableName = "UnnaturalScrollWheels.app"
+            BuildableName = "UnnaturalScrollWheels-Mod.app"
             BlueprintName = "UnnaturalScrollWheels"
             ReferencedContainer = "container:UnnaturalScrollWheels.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91D8069924CB37B80092C286"
-            BuildableName = "UnnaturalScrollWheels.app"
+            BuildableName = "UnnaturalScrollWheels-Mod.app"
             BlueprintName = "UnnaturalScrollWheels"
             ReferencedContainer = "container:UnnaturalScrollWheels.xcodeproj">
          </BuildableReference>

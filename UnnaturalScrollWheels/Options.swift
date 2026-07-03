@@ -20,6 +20,8 @@ class Options {
     var alternateDetectionMethod: Bool = false
     var disableMouseAccel: Bool = false
     var launchAtLogin: Bool = false
+    var pressureShared: Float = 0.0
+    var windowsStyleTapDrag: Bool = true
 
     init() {
         if UserDefaults.standard.object(forKey: "FirstLaunch") == nil {
@@ -52,6 +54,9 @@ class Options {
         if UserDefaults.standard.object(forKey: "LaunchAtLogin") == nil {
             UserDefaults.standard.set(launchAtLogin, forKey: "LaunchAtLogin")
         }
+        if UserDefaults.standard.object(forKey: "WindowsStyleTapDrag") == nil {
+            UserDefaults.standard.set(windowsStyleTapDrag, forKey: "WindowsStyleTapDrag")
+        }
         loadOptions()
     }
     
@@ -65,5 +70,6 @@ class Options {
         alternateDetectionMethod = UserDefaults.standard.bool(forKey: "AlternateDetectionMethod")
         disableMouseAccel = UserDefaults.standard.bool(forKey: "DisableMouseAccel")
         launchAtLogin = UserDefaults.standard.bool(forKey: "LaunchAtLogin")
+        windowsStyleTapDrag = UserDefaults.standard.bool(forKey: "WindowsStyleTapDrag")
     }
 }

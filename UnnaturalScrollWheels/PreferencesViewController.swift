@@ -93,6 +93,6 @@ class PreferencesViewController: NSViewController {
     }
     @IBAction func launchAtLogin(_ sender: Any) {
         Options.shared.launchAtLogin = !Options.shared.launchAtLogin
-        SMLoginItemSetEnabled("com.AutoLauncher" as CFString, Options.shared.launchAtLogin)
+        SMLoginItemSetEnabled("com.theron.UnnaturalScrollWheels-Mod.AutoLauncher" as CFString, Options.shared.launchAtLogin)
     }
 }

@@ -8,6 +8,7 @@
 
 import Cocoa
 import Foundation
+import CoreGraphics
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {

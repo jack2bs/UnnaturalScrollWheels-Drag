@@ -4,8 +4,8 @@ import Cocoa
 class AutoLauncherAppDelegate: NSObject, NSApplicationDelegate {
     
     struct Constants {
-        static let mainAppBundleID = "com.theron.UnnaturalScrollWheels"
-        static let mainAppName = "UnnaturalScrollWheels.app"
+        static let mainAppBundleID = "com.theron.UnnaturalScrollWheels-Mod"
+        static let mainAppName = "UnnaturalScrollWheels-Mod.app"
     }
 
     /// Finds the main app whether the helper is running from the installed bundle
@@ -26,7 +26,7 @@ class AutoLauncherAppDelegate: NSObject, NSApplicationDelegate {
             .deletingLastPathComponent()
             .appendingPathComponent(Constants.mainAppName)
 
-        let candidates = [bundledAppURL, debugAppURL]
+        let candidates = [debugAppURL]
         for url in candidates where url.pathExtension == "app" {
             if fileManager.fileExists(atPath: url.path) {
                 return url
